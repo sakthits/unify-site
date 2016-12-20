@@ -1,0 +1,260 @@
+/** navigation bar **/
+
+.navbar-main {
+	padding: 20px;
+    padding-right: 80px;
+    text-transform: uppercase;
+    background-color: white;
+    color: #050101;
+    font-weight: 400;
+    font-size: small;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.navbar-1 {
+	padding: 5px;
+    padding-left: 140px;
+    text-transform: uppercase;
+    background-color: white;
+    color: #050101;
+    font-weight: 400;
+    font-size: small;
+    margin: 0;
+    position: inherit;
+    letter-spacing: 1px;
+}
+
+
+/** section 1 **/
+
+#sec-1 {
+	text-align: center;
+    padding-top: 70px;
+}
+
+#sec-1 .heading {
+	font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: rgb(99, 95, 95);
+    margin-bottom: 20px;
+}
+
+#sec-1 .heading .color {
+	color: rgb(115, 175, 115);
+}
+
+#sec-1 .para {
+	line-height: 25px;
+    letter-spacing: 1px;
+    color: #777;
+    font-weight: 400;
+}
+
+/** section 2 **/
+
+#sec-2 {
+	margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#sec-2 #first-row {
+	margin-bottom: 30px;
+}
+
+#sec-2 #first-row .para1 {
+	padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: small;
+    color: rgb(73, 66, 66);
+    font-weight: 700;
+}
+
+/** section 3 **/
+
+#sec-3 {
+	color: #fff;
+    padding: 100px 0;
+    position: relative;
+    text-align: center;
+    background: url(../img/image2.jpg) 50% 0 repeat fixed;
+    opacity: 0.9;
+}
+
+#sec-3 #next-row p {
+	font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#sec-3 #next-row p .color {
+	color: green;
+}
+
+#sec-3 #next-row small {
+	color: #bbb;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;	
+}
+
+/** section 4 **/
+
+#sec-4 {
+	background-color: rgb(241, 240, 240);
+    padding-top: 80px;
+}
+
+#sec-4 #head-1 {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#sec-4 #head-1 h2 {
+	letter-spacing: 1px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 5px;
+    text-shadow: none;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+#sec-4 #head-1 p {
+	letter-spacing: 1px;
+    font-size: 15px;
+    color: #555;
+}
+
+#sec-4 .new-row {
+	margin-bottom: 60px;
+    clear: both;
+    border-radius: 0;
+}
+
+#sec-4 .new-row .testimonials-v4 .testimonials-v4-in {
+	background: #fff;
+    position: relative;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 55px;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
+}
+
+#sec-4 .new-row .testimonials-v4 .testimonials-v4-in p {
+	color: #777;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#sec-4 .new-row .testimonials-v4 .rounded-x {
+	float: left;
+    width: 60px;
+    height: auto;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+
+#sec-4 .new-row .testimonials-v4 .name {
+	color: #555;
+    display: block;
+    font-size: 14px;
+    overflow: hidden;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+
+#sec-4 .new-row .testimonials-v4 .name em {
+	font-size: 13px;
+    text-transform: capitalize;
+}
+
+/** section 5 **/
+
+#sec-5 {
+	padding: 70px 0;
+    text-align: center;
+    background: url(../img/patterns.jpg);
+}
+
+#sec-5 .last-row h2 {
+	font-size: 24px; 
+	letter-spacing: 1px; 
+	font-weight: bold;
+	color: #555;
+    margin-top: 5px;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 33px;
+}
+
+#sec-5 .last-row p {
+	font-size: 18px; 
+	letter-spacing: 1px;
+	padding: 0 100px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#sec-5 .last-row a {
+	padding: 8px 25px; 
+	letter-spacing: 1px;
+	border: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    position: relative;
+    background: #72c02c;
+    white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/** footer **/
+
+footer .copyright {
+	padding: 15px 0;
+    background: #222;
+}
+
+footer .copyright .terms-menu {
+	margin: 7px 0 0;
+}
+
+footer .copyright .terms-menu .silver {
+	border-left: none;
+    padding: 0 7px 0 0;
+    color: #777;
+    font-size: 13px;
+    line-height: 10px;
+    margin-right: 2px;
+    border-color: #777;
+}
+
+footer .copyright .terms-menu li a {
+	color: #777;
+    font-size: 13px;
+    line-height: 10px;
+    margin-right: 2px;
+    border-color: #777;
+    padding-left: 10px;
+    border-left: 1px solid #bbb;
+}
+
+footer .copyright .dark-social {
+	margin: 5px 0 0;
+}
+
+footer .copyright .dark-social li {
+	margin-left: 5px;
+}
+
+footer .copyright .dark-social li a {
+	color: #555;
+}
